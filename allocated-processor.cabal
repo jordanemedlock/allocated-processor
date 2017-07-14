@@ -1,8 +1,8 @@
 name: allocated-processor
 version: 0.0.2
 license: BSD3
-maintainer: Noam Lewis <jones.noamle@gmail.com>
-bug-reports: mailto:jones.noamle@gmail.com
+maintainer: Jordan Medlock <jordanemedlock@gmail.com>
+bug-reports: mailto:jordanemedlock@gmail.com
 category: Control
 synopsis: Functional combinators for monadic actions that require allocation and de-allocation
 description:
@@ -19,7 +19,7 @@ library
    build-depends: base >=4 && <5, vector-space
    ghc-options: -Wall
 
--- source-repository head
---  type: git
---  location: git://github.com/sinelaw/allocated-processor.git
+source-repository head
+ type: git
+ location: git://github.com/jordanemedlock/allocated-processor.git
 
